@@ -56,6 +56,10 @@ header dl dt {
   font-weight: bold;
 }
 
+header dl dd img {
+  position: relative;
+}
+
 nav, #main {
   background-color: #FFF;
   -moz-border-radius: 0.5em;
