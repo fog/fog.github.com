@@ -157,8 +157,20 @@ While you are working out the kinks you might not want to do everything live tho
 
     connection = Fog::Storage.new({
       :provider   => 'Local',
-      :local_root => '~/fog'
+      :local_root => '~/fog',
+      :endpoint   => 'http://example.com'
     })
+
+Note that `endpoint` is optional. Files will be stored in the location contained in `local_root` and if `endpoint` is present, they will have a 
+`public_url`. According to the options hash above, a file stored locally as `~/fog/pictures/kittens/gorbypuff.jpg` will have a `public_url` of 
+`http://example.com/kittens/gorbypuff.jpg` If you leave off `endpoint` from the options hash, your files will have a `public_url` of `nil` 
+
+A situation where this is useful is where you are testing an `Uploader` class in a Rails application using Local Storage. If you set 
+    
+    :endpoint => Rails.root.join 'tmp'
+
+then your files end up having a `public_url` that is a path on your filesystem under `Rails.root.join 'tmp'`. You can then 
+conveniently test methods that use `public_url` by working within your local filesystem.
 
 ## Mocking out Cloud Storage
 
