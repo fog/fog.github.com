@@ -157,7 +157,8 @@ While you are working out the kinks you might not want to do everything live tho
 
     connection = Fog::Storage.new({
       :provider   => 'Local',
-      :local_root => '~/fog'
+      :local_root => '~/fog',
+      :endpoint   => '~/fog'
     })
 
 ## Mocking out Cloud Storage
