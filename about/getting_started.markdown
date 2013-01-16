@@ -3,9 +3,107 @@ layout: default
 title:  Getting Started
 ---
 
-First off, install the gem:
+## Prerequisites
+
+Fog is officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, fog has been known to work with rubinus and jruby.	
+
+## Installation
 
     $ gem install fog
+
+## Credentials
+Fog will continue to search for credentials in the following order until found:
+
+1. service factory method (```Fog::Compute.new :provider => 'Rackspace', :rackspace_username => USERNAME, :rackspace_api_key => API_KEY```)
+2. credential file specified by the environment variable ```FOG_RC```
+3. ````.fog```` file in the user's home directory
+
+*Note: When running fog's test suite, shindo will look for a .fog file in the tests directory*
+
+
+This is an example of a ```.fog``` file:
+ 
+	default:
+	    rackspace_username: RACKSPACE_USERNAME
+	    rackspace_api_key: RACKSPACE_API_KEY
+	    public_key_path: ~/.ssh/fog_rsa.pub
+	    private_key_path: ~/.ssh/fog_rsa
+	
+	provider2:
+		provider_username: USERNAME
+		provider_api_key: API_KEY
+
+The ```.fog``` file is in YAML format. The top level level keys define the group of credentials. The nested key-value pairs define the credentials used by Fog. By default Fog will use the ```default``` group. This value can be overriden by defining the environment variable ```FOG_CREDENTIAL```.
+
+Valid keys are as follows:
+
+<table>
+	<tr>
+		<th>Key</th><th>Description</th>
+	</tr>
+	<tr><td>aws_access_key_id</td><td></td></tr>
+    <tr><td>aws_secret_access_key</td><td></td></tr>
+        <tr><td>aws_access_key_id</td><td></td></tr>
+    <tr><td>aws_secret_access_key</td><td></td></tr>
+    <tr><td>bluebox_api_key</td><td></td></tr>
+    <tr><td>bluebox_customer_id</td><td></td></tr>
+    <tr><td>brightbox_client_id</td><td></td></tr>
+    <tr><td>brightbox_secret</td><td></td></tr>
+    <tr><td>clodo_api_key</td><td></td></tr>
+    <tr><td>clodo_username</td><td></td></tr>
+    <tr><td>go_grid_api_key</td><td></td></tr>
+    <tr><td>go_grid_shared_secret</td><td></td></tr>
+    <tr><td>google_storage_access_key_id</td><td></td></tr>
+    <tr><td>google_storage_secret_access_key</td><td></td></tr>
+    <tr><td>hp_account_id</td><td></td></tr>
+    <tr><td>hp_secret_key</td><td></td></tr>
+    <tr><td>hp_tenant_id</td><td></td></tr>
+    <tr><td>linode_api_key</td><td></td></tr>
+    <tr><td>local_root</td><td></td></tr>
+    <tr><td>bare_metal_cloud_password</td><td></td></tr>
+    <tr><td>bare_metal_cloud_username</td><td></td></tr>
+    <tr><td>public_key_path</td><td></td></tr>
+    <tr><td>private_key_path</td><td></td></tr>
+    <tr><td>openstack_api_key</td><td></td></tr>
+    <tr><td>openstack_username</td><td></td></tr>
+    <tr><td>openstack_auth_url</td><td></td></tr>
+    <tr><td>openstack_tenant</td><td></td></tr>
+    <tr><td>openstack_region</td><td></td></tr>
+    <tr><td>ovirt_username</td><td></td></tr>
+    <tr><td>ovirt_password</td><td></td></tr>
+    <tr><td>ovirt_url</td><td></td></tr>
+    <tr><td>libvirt_uri</td><td></td></tr>
+    <tr><td>rackspace_api_key</td><td>Rackspace API key</td></tr>
+    <tr><td>rackspace_username</td><td> Rackpace username</td></tr>
+    <tr><td>rackspace_servicenet</td><td></td></tr>
+    <tr><td>rackspace_cdn_ssl</td><td></td></tr>
+    <tr><td>stormondemand_username</td><td></td></tr>
+    <tr><td>stormondemand_password</td><td></td></tr>
+    <tr><td>terremark_username</td><td></td></tr>
+    <tr><td>terremark_password</td><td></td></tr>
+    <tr><td>voxel_api_key</td><td></td></tr>
+    <tr><td>zerigo_email</td><td></td></tr>
+    <tr><td>zerigo_token</td><td></td></tr>
+    <tr><td>dnsimple_email</td><td></td></tr>
+    <tr><td>dnsimple_password</td><td></td></tr>
+    <tr><td>dnsmadeeasy_api_key</td><td></td></tr>
+    <tr><td>dnsmadeeasy_secret_key</td><td></td></tr>
+    <tr><td>cloudstack_host</td><td></td></tr>
+    <tr><td>cloudstack_api_key</td><td></td></tr>
+    <tr><td>cloudstack_secret_access_key</td><td></td></tr>
+    <tr><td>vsphere_username</td><td></td></tr>
+    <tr><td>vsphere_password</td><td></td></tr>
+    <tr><td>libvirt_username</td><td></td></tr>
+    <tr><td>libvirt_password</td><td></td></tr>
+    <tr><td>libvirt_uri</td><td></td></tr>
+    <tr><td>libvirt_ip_command</td><td></td></tr>
+    <tr><td>ibm_username</td><td></td></tr>
+    <tr><td>ibm_password</td><td></td></tr>
+</table>
+
+
+## Debugging
+Debug logging can be turned on by setting the ```DEBUG``` environment variable. Request logging can be turned on by setting the ```EXCON_DEBUG``` environment variable.
 
 ## Setting Up Local Storage
 
