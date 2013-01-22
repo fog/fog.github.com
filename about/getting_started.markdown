@@ -5,8 +5,7 @@ title:  Getting Started
 
 ## Prerequisites
 
-Fog is officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, fog has been known to work with rubinus and jruby.	
-
+Fog is officially supports Ruby 1.9.3, 1.9.2, and 1.8.7 (Also known as Matz Ruby Interpreter or MRI). While not officially supported, fog has been known to work with Rubinus and JRuby. 	
 ## Installation
 
     $ gem install fog
