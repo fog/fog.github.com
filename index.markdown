@@ -13,7 +13,7 @@ With a rapidly expanding community and codebase the advantages of fog just keep 
 
 ## Prerequisites
 
-Fog officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, Fog has been known to work with Rubinus and JRuby.	
+Fog officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.	
 
 ## Quick Start
 
