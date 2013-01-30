@@ -5,7 +5,7 @@ title:  Getting Started
 
 ## Prerequisites
 
-Fog is officially supports Ruby 1.9.3, 1.9.2, and 1.8.7 (Also known as Matz Ruby Interpreter or MRI). While not officially supported, fog has been known to work with Rubinus and JRuby. 	
+Fog is officially supports Ruby 1.9.3, 1.9.2, and 1.8.7 (also known as Matz Ruby Interpreter or MRI). While not officially supported, fog has been known to work with Rubinus and JRuby. 	
 ## Installation
 
     $ gem install fog
@@ -32,7 +32,7 @@ This is an example of a ```.fog``` file:
 		provider_username: USERNAME
 		provider_api_key: API_KEY
 
-The ```.fog``` file is in YAML format. The top level level keys define the group of credentials. The nested key-value pairs define the credentials used by Fog. By default Fog will use the ```default``` group. This value can be overriden by defining the environment variable ```FOG_CREDENTIAL```.
+The ```.fog``` file is in YAML format. The top level level keys define the group of credentials. The nested key-value pairs define the credentials used by Fog. By default Fog will use the ```default``` group. This value can be overridden by defining the environment variable ```FOG_CREDENTIAL```.
 
 Valid keys are as follows:
 
@@ -100,13 +100,12 @@ Valid keys are as follows:
     <tr><td>ibm_password</td><td></td></tr>
 </table>
 
-
 ## Debugging
-Debug logging can be turned on by setting the ```DEBUG``` environment variable. Request logging can be turned on by setting the ```EXCON_DEBUG``` environment variable.
+You can turn on debug logging by setting the ```DEBUG``` environment variable. You can turn on request logging by setting the ```EXCON_DEBUG``` environment variable.
 
 ## Setting Up Local Storage
 
-We will be using Local storage in the example.  Local storage provides the same api that cloud storage services in fog do, but without the bother of needing to signup for stuff or pay extra money.
+We will be using local storage in the example.  Local storage provides the same api that cloud storage services in fog do, but without the bother of needing to signup for stuff or pay extra money.
 
 First, make a local directory to hold your data.
 
