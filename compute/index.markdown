@@ -86,7 +86,7 @@ If you've already registered a custom key pair e.g. using `connection.create_key
 
 ## Rackspace Cloud Servers
 
-Rackspace has <a href="http://www.rackspacecloud.com/cloud_hosting_products/servers">Cloud Servers</a> and you can sign up <a href="https://www.rackspacecloud.com/signup">here</a> and get your credentials <a href="https://manage.rackspacecloud.com/APIAccess.do">here</a>.
+Rackspace has <a href="http://www.rackspace.com/cloud/servers/">Cloud Servers</a> and you can sign up <a href="https://cart.rackspace.com/cloud/">here</a> and get your credentials <a href="https://mycloud.rackspace.com/">here</a>.
 
     # create a connection
     connection = Fog::Compute.new({
