@@ -11,9 +11,15 @@ By coding with fog from the start you avoid vendor lock-in and give yourself mor
 
 With a rapidly expanding community and codebase the advantages of fog just keep coming. Join us and together we will realize the future of cloud computing.
 
-## Getting Started
+## Prerequisites
 
-    sudo gem install fog
+Fog officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.	
+
+## Quick Start
+
+To install
+
+    gem install fog
 
 Now type 'fog' to try stuff, confident that fog will let you know what to do. Here is an example of wading through server creation for Amazon Elastic Compute Cloud:
 
