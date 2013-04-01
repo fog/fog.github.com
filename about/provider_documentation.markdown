@@ -9,10 +9,10 @@ While Fog strives to provide a generalized abstraction to the Cloud, sometimes t
 This page provides links to provider specific documentation and examples to help you get past these issues.
 
 Community supported providers can get assistance by starting a thread on [Google Groups](https://groups.google.com/forum/?fromgroups=#!forum/ruby-fog) or the [#ruby-fog](irc://irc.freenode.net/ruby-fog) irc channel on Freenode. Vendor supported providers also have the option contacting the cloud provider.
- 
+
 In order to maximize the benefits of open source, you are encouraged submit bugs to [Github Issues](https://github.com/fog/fog/issues) regardless of the support option.
-         
- <table id="provider-resources">
+
+<table id="provider-resources">
      <tr>
          <th>Provider</th>
          <th>Documentation</th>
