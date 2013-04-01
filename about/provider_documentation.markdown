@@ -12,7 +12,7 @@ Community supported providers can get assistance by starting a thread on [Google
 
 In order to maximize the benefits of open source, you are encouraged submit bugs to [Github Issues](https://github.com/fog/fog/issues) regardless of the support option.
 
-<table id="provider-resources">
+<table>
      <tr>
          <th>Provider</th>
          <th>Documentation</th>

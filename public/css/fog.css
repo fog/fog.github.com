@@ -135,7 +135,7 @@ pre code {
   border: none;
 }
 
-table#provider-resources {
+table {
     border: 1px solid #A0C0E1;
     -moz-border-radius: 0.5em;
     border-radius: 0.5em;
@@ -148,34 +148,28 @@ table#provider-resources {
     text-align: center;
 }
 
-table#provider-resources  tr td:first-child {
+table  tr td:first-child {
     border-left: 0px; solid #A0C0E1;
     text-align: left;
     padding-left: 10px;
 }
 
-table#provider-resources  tr th:first-child {
+table  tr th:first-child {
     border-left: 0px; solid #A0C0E1;
 }
 
-table#provider-resources tr td {
+table tr td {
     border-left: 1px solid #A0C0E1;
     border-bottom: 1px solid #A0C0E1;
     padding: 4px;
 }
 
-table#provider-resources tr th {
+table tr th {
     border-left: 1px solid #A0C0E1;
     border-bottom: 1px solid #A0C0E1;
     padding: 4px;
     color: #607890;
 }
-
-/*table#provider-resources tr:hover td, table#provider-resources tr:hover td {
-    background:#FF5E99; 
-    color:#fff; 
-    text-shadow: none; 
-}*/
 
 @media all and (orientation:portrait) {
 }
