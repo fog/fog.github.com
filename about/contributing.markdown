@@ -87,7 +87,7 @@ end
 
 ## Tests
 
-Now would be a good time to write some tests to make sure what you have written works (and will continue to). I've tried a couple variations on testing in the past, but have settled on consolidated lifetime testing. These vary enough that its hard to give a single simple example, but you can see many examples in "tests/compute/requests/aws":https://github.com/fog/fog/tree/master/tests/compute/requests/aws/.
+Now would be a good time to write some tests to make sure what you have written works (and will continue to). I've tried a couple variations on testing in the past, but have settled on consolidated lifetime testing. These vary enough that its hard to give a single simple example, but you can see many examples in [tests/aws/requests/compute](https://github.com/fog/fog/tree/master/tests/aws/requests/compute).
 
 ### Highlights:
 * Reuse the same objects and take them through their whole life cycle (this is much faster, and most of the time if one portion fails the others would anyway).
