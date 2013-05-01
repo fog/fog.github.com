@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  Users
+title:  Projects using fog
 ---
 
-Here lies a listing of projects and products that are using fog.
+Here's a listing of projects and products using fog.
 
 Please feel free to add your own, just please follow these rules for consistency and readability.
 
