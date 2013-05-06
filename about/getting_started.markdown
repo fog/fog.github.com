@@ -40,16 +40,23 @@ Valid keys are as follows:
 	<tr>
 		<th>Key</th><th>Description</th>
 	</tr>
-	<tr><td>aws_access_key_id</td><td></td></tr>
+    <tr><td>aws_access_key_id</td><td></td></tr>
     <tr><td>aws_secret_access_key</td><td></td></tr>
-        <tr><td>aws_access_key_id</td><td></td></tr>
-    <tr><td>aws_secret_access_key</td><td></td></tr>
+    <tr><td>bare_metal_cloud_password</td><td></td></tr>
+    <tr><td>bare_metal_cloud_username</td><td></td></tr>
     <tr><td>bluebox_api_key</td><td></td></tr>
     <tr><td>bluebox_customer_id</td><td></td></tr>
     <tr><td>brightbox_client_id</td><td></td></tr>
     <tr><td>brightbox_secret</td><td></td></tr>
     <tr><td>clodo_api_key</td><td></td></tr>
     <tr><td>clodo_username</td><td></td></tr>
+    <tr><td>cloudstack_api_key</td><td></td></tr>
+    <tr><td>cloudstack_host</td><td></td></tr>
+    <tr><td>cloudstack_secret_access_key</td><td></td></tr>
+    <tr><td>dnsimple_email</td><td></td></tr>
+    <tr><td>dnsimple_password</td><td></td></tr>
+    <tr><td>dnsmadeeasy_api_key</td><td></td></tr>
+    <tr><td>dnsmadeeasy_secret_key</td><td></td></tr>
     <tr><td>go_grid_api_key</td><td></td></tr>
     <tr><td>go_grid_shared_secret</td><td></td></tr>
     <tr><td>google_storage_access_key_id</td><td></td></tr>
@@ -57,47 +64,37 @@ Valid keys are as follows:
     <tr><td>hp_account_id</td><td></td></tr>
     <tr><td>hp_secret_key</td><td></td></tr>
     <tr><td>hp_tenant_id</td><td></td></tr>
-    <tr><td>linode_api_key</td><td></td></tr>
-    <tr><td>local_root</td><td></td></tr>
-    <tr><td>bare_metal_cloud_password</td><td></td></tr>
-    <tr><td>bare_metal_cloud_username</td><td></td></tr>
-    <tr><td>public_key_path</td><td></td></tr>
-    <tr><td>private_key_path</td><td></td></tr>
-    <tr><td>openstack_api_key</td><td></td></tr>
-    <tr><td>openstack_username</td><td></td></tr>
-    <tr><td>openstack_auth_url</td><td></td></tr>
-    <tr><td>openstack_tenant</td><td></td></tr>
-    <tr><td>openstack_region</td><td></td></tr>
-    <tr><td>ovirt_username</td><td></td></tr>
-    <tr><td>ovirt_password</td><td></td></tr>
-    <tr><td>ovirt_url</td><td></td></tr>
-    <tr><td>libvirt_uri</td><td></td></tr>
-    <tr><td>rackspace_api_key</td><td>Rackspace API key</td></tr>
-    <tr><td>rackspace_username</td><td> Rackpace username</td></tr>
-    <tr><td>rackspace_servicenet</td><td></td></tr>
-    <tr><td>rackspace_cdn_ssl</td><td></td></tr>
-    <tr><td>stormondemand_username</td><td></td></tr>
-    <tr><td>stormondemand_password</td><td></td></tr>
-    <tr><td>terremark_username</td><td></td></tr>
-    <tr><td>terremark_password</td><td></td></tr>
-    <tr><td>voxel_api_key</td><td></td></tr>
-    <tr><td>zerigo_email</td><td></td></tr>
-    <tr><td>zerigo_token</td><td></td></tr>
-    <tr><td>dnsimple_email</td><td></td></tr>
-    <tr><td>dnsimple_password</td><td></td></tr>
-    <tr><td>dnsmadeeasy_api_key</td><td></td></tr>
-    <tr><td>dnsmadeeasy_secret_key</td><td></td></tr>
-    <tr><td>cloudstack_host</td><td></td></tr>
-    <tr><td>cloudstack_api_key</td><td></td></tr>
-    <tr><td>cloudstack_secret_access_key</td><td></td></tr>
-    <tr><td>vsphere_username</td><td></td></tr>
-    <tr><td>vsphere_password</td><td></td></tr>
-    <tr><td>libvirt_username</td><td></td></tr>
+    <tr><td>ibm_password</td><td></td></tr>
+    <tr><td>ibm_username</td><td></td></tr>
+    <tr><td>libvirt_ip_command</td><td></td></tr>
     <tr><td>libvirt_password</td><td></td></tr>
     <tr><td>libvirt_uri</td><td></td></tr>
-    <tr><td>libvirt_ip_command</td><td></td></tr>
-    <tr><td>ibm_username</td><td></td></tr>
-    <tr><td>ibm_password</td><td></td></tr>
+    <tr><td>libvirt_username</td><td></td></tr>
+    <tr><td>linode_api_key</td><td></td></tr>
+    <tr><td>local_root</td><td></td></tr>
+    <tr><td>openstack_api_key</td><td></td></tr>
+    <tr><td>openstack_auth_url</td><td></td></tr>
+    <tr><td>openstack_region</td><td></td></tr>
+    <tr><td>openstack_tenant</td><td></td></tr>
+    <tr><td>openstack_username</td><td></td></tr>
+    <tr><td>ovirt_password</td><td></td></tr>
+    <tr><td>ovirt_url</td><td></td></tr>
+    <tr><td>ovirt_username</td><td></td></tr>
+    <tr><td>private_key_path</td><td></td></tr>
+    <tr><td>public_key_path</td><td></td></tr>
+    <tr><td>rackspace_api_key</td><td>Rackspace API key</td></tr>
+    <tr><td>rackspace_cdn_ssl</td><td></td></tr>
+    <tr><td>rackspace_servicenet</td><td></td></tr>
+    <tr><td>rackspace_username</td><td> Rackpace username</td></tr>
+    <tr><td>stormondemand_password</td><td></td></tr>
+    <tr><td>stormondemand_username</td><td></td></tr>
+    <tr><td>terremark_password</td><td></td></tr>
+    <tr><td>terremark_username</td><td></td></tr>
+    <tr><td>voxel_api_key</td><td></td></tr>
+    <tr><td>vsphere_password</td><td></td></tr>
+    <tr><td>vsphere_username</td><td></td></tr>
+    <tr><td>zerigo_email</td><td></td></tr>
+    <tr><td>zerigo_token</td><td></td></tr>
 </table>
 
 ## Debugging
