@@ -40,9 +40,7 @@ Valid keys are as follows:
 	<tr>
 		<th>Key</th><th>Description</th>
 	</tr>
-	<tr><td>aws_access_key_id</td><td></td></tr>
-    <tr><td>aws_secret_access_key</td><td></td></tr>
-        <tr><td>aws_access_key_id</td><td></td></tr>
+    <tr><td>aws_access_key_id</td><td></td></tr>
     <tr><td>aws_secret_access_key</td><td></td></tr>
     <tr><td>bluebox_api_key</td><td></td></tr>
     <tr><td>bluebox_customer_id</td><td></td></tr>
@@ -71,7 +69,6 @@ Valid keys are as follows:
     <tr><td>ovirt_username</td><td></td></tr>
     <tr><td>ovirt_password</td><td></td></tr>
     <tr><td>ovirt_url</td><td></td></tr>
-    <tr><td>libvirt_uri</td><td></td></tr>
     <tr><td>rackspace_api_key</td><td>Rackspace API key</td></tr>
     <tr><td>rackspace_username</td><td> Rackpace username</td></tr>
     <tr><td>rackspace_servicenet</td><td></td></tr>
