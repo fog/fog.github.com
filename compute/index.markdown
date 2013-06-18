@@ -107,6 +107,38 @@ You can run all the same ssh commands and do what you need to, then once again s
 
     server.destroy
 
+## Google Compute Engine
+
+Google has [Compute Engine](https://cloud.google.com/products/compute-engine). It is currently in a limited trial. To get your authorization key, visit the [Google API Console](https://code.google.com/apis/console/). Once there, go to "API Access". Click "Create another client ID..." and select "service account".
+
+    # create a connection
+    connection = Fog::Compute.new({
+      :provider => 'google',
+      :google_project => GOOGLE_PROJECT_ID,
+      :google_client_email => GOOGLE_SERVICE_EMAIL,
+      :google_key_location => GOOGLE_KEY_LOCATION,
+    })
+
+The easiest way to launch a server is to:
+
+    server = connection.servers.bootstrap
+
+Which is equivalent to running:
+
+
+    server = connection.servers.create({
+      :name => "fog-#{Time.now.to_i}",       # Instance Name
+      :image_name => "gcel-12-04-v20130225", # An ubuntu 12.04 based image
+      :machine_type => "n1-standard-1",      # A single core VM
+      :zone_name => "us-central1-a",         # Central United States
+    })
+
+    server.wait_for { ready? }
+
+You can run all the same ssh commands and do what you need to, then once again shutdown to ensure you are not charged once you are done.
+
+    server.destroy
+
 ## Mocking out Compute
 
 You can also start any of these scripts with `Fog.mock!` or start the fog interactive tool from the command line with `FOG_MOCK=true fog` to run in mock mode. In this mode commands are run as local simulation, so no cloud resources are ever consumed and things operate much faster.
