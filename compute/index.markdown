@@ -109,7 +109,7 @@ You can run all the same ssh commands and do what you need to, then once again s
 
 ## Google Compute Engine
 
-Google has [Compute Engine](https://cloud.google.com/products/compute-engine). It is currently in a limited trial. To get your authorization key, visit the [Google API Console](https://code.google.com/apis/console/). Once there, go to "API Access". Click "Create another client ID..." and select "service account".
+Google has [Compute Engine](https://cloud.google.com/products/compute-engine). To get your authorization key, visit the [Google API Console](https://code.google.com/apis/console/). Once there, go to "API Access". Click "Create another client ID..." and select "service account".
 
     # create a connection
     connection = Fog::Compute.new({
