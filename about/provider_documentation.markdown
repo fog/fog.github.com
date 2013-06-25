@@ -5,7 +5,7 @@ title:  Provider Documentation
 
 ##Provider Specific Resources
 
-While Fog strives to provide a generalized abstraction to the Cloud, sometimes this cannot be accomplished due to specific differences in each cloud implementation. 
+While Fog strives to provide a generalized abstraction to the Cloud, sometimes this cannot be accomplished due to specific differences in each cloud implementation.
 This page provides links to provider specific documentation and examples to help you get past these issues.
 
 Community supported providers can get assistance by starting a thread on [Google Groups](https://groups.google.com/forum/?fromgroups=#!forum/ruby-fog) or the [#ruby-fog](irc://irc.freenode.net/ruby-fog) irc channel on Freenode. Vendor supported providers also have the option contacting the cloud provider.
@@ -20,175 +20,182 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
          <th>Support Type</th>
          <th>Support Address</th>
      </tr>
-   <tr>  
+   <tr>
      <td>AWS</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Atmos</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>BareMetalCloud</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Bluebox</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Brightbox</td>
      <td><a href="http://docs.brightbox.com/guides/ruby/fog/">Documentation</a></td>
      <td></td>
      <td>Vendor</td>
      <td><a href="mailto:support@brightbox.com">support@brightbox.com</a></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Clodo</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
+     <td>CloudSigma</td>
+     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/cloudsigma/docs/getting_started.md">Documentation</a></td>
+     <td></td>
+     <td>Vendor</td>
+     <td><a href="mailto:dev-support@cloudsigma.com">dev-support@cloudsigma.com</a></td>
+   </tr>
+   <tr>
      <td>Cloudstack</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>DNSMadeEasy</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>DNSimple</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Dreamhost</td>
      <td><a href="https://github.com/fog/fog/blob/master/lib/fog/dreamhost/examples/dns/getting_started.md">Documentation</a></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Dynect</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Ecloud</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Glesys</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>GoGrid</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Google</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>HP</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>IBM</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>InternetArchive</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Joyent</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Libvirt</td>
      <td><a href="https://github.com/fog/fog/blob/master/lib/fog/libvirt/models/compute/README.md">Documentation</a></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Linode</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Local</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Ninefold</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>OpenStack</td>
      <td></td>
      <td><a href="https://github.com/fog/fog/tree/master/lib/fog/openstack/examples">Examples</a></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Ovirt</td>
      <td></td>
      <td></td>
@@ -202,63 +209,63 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
       <td>Vendor</td>
       <td><a href="mailto:sdk-support@rackspace.com">sdk-support@rackspace.com</a></td>
     </tr>
-   <tr>  
+   <tr>
      <td>RiakCS</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Serverlove</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>StormOnDemand</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Vcloud</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Vmfusion</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Voxel</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Vsphere</td>
      <td></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>XenServer</td>
      <td><a href="https://github.com/fog/fog/tree/master/lib/fog/xenserver/examples">Documentation</a></td>
      <td></td>
      <td>Community</td>
      <td></td>
    </tr>
-   <tr>  
+   <tr>
      <td>Zerigo</td>
      <td></td>
      <td></td>
