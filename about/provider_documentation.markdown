@@ -127,8 +127,8 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>Google</td>
-     <td>[Documentation](https://github.com/fog/fog/blob/master/lib/fog/google/README.md)</td>
-     <td>[Examples](https://github.com/fog/fog/tree/master/lib/fog/google/examples)</td>
+     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/google/README.md">Documentation</a></td>
+     <td><a href="https://github.com/fog/fog/tree/master/lib/fog/google/examples">Examples</a></td>
      <td>Community</td>
      <td></td>
    </tr>
