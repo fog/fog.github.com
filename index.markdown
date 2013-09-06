@@ -13,7 +13,7 @@ With a rapidly expanding community and codebase the advantages of fog just keep 
 
 ## Prerequisites
 
-Fog officially supports MRI 1.9.3, 1.9.2, and 1.8.7. While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.	
+Fog recommends using MRI 1.9.3 or 2.0.0.  MRI 1.8.7 and 1.9.2 are still supported by the Fog community, but are no longer supported by the Ruby community at large.  While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.
 
 ## Quick Start
 
@@ -53,7 +53,7 @@ geemus says: "That should give you everything you need to get started, but let m
   * Look at the [code quality metrics](https://codeclimate.com/github/fog/fog) for anything you can help clean up.
   * Or anything else!
 * Fork the project and do your work in a topic branch.
-  * Make sure your changes will work on both Ruby 1.8.7 and Ruby 1.9.
+  * Make sure your changes will work for the Rubies in .travis.yml (currently MRI 1.8, 1.9, and Ruby 2.0).
 * Add a config at `tests/.fog` for the component you want to test.
 * Add shindo tests to prove your code works and run all the tests using `bundle exec rake`.
 * Rebase your branch against `fog/fog` to make sure everything is up to date.
