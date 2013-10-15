@@ -233,7 +233,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    <tr>
      <td>Vcloud</td>
      <td></td>
-     <td></td>
+     <td><a href="https://github.com/fog/fog/tree/master/lib/fog/vcloud/examples">Examples</a></td>
      <td>Community</td>
      <td></td>
    </tr>
