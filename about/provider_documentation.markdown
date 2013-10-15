@@ -238,6 +238,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
    </tr>
    <tr>
+     <td>VcloudDirector</td>
+     <td><a href="https://github.com/fog/fog/tree/master/lib/fog/vcloud_director/README.md">Documentation</a></td>
+     <td></td>
+     <td>Community</td>
+     <td></td>
+   </tr>
+   <tr>
      <td>Vmfusion</td>
      <td></td>
      <td></td>
