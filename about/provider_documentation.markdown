@@ -134,10 +134,10 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>HP</td>
-     <td></td>
-     <td></td>
-     <td>Community</td>
-     <td></td>
+     <td><a href="https://docs.hpcloud.com/bindings/fog">Documentation</a></td>
+     <td><a href="https://docs.hpcloud.com/bindings/fog">Examples</a></td>
+     <td>Vendor</td>
+     <td>support@hpcloud.com</td>
    </tr>
    <tr>
      <td>IBM</td>
