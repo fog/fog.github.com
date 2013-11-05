@@ -19,7 +19,15 @@ title:  Supported Services
   <tr><th>glesys</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>gogrid</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>google</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
-  <tr><th>hp</th><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
+  <tr>
+    <th>hp</th>
+    <td style='text-align: center;'>+</td>
+    <td style='text-align: center;'>+</td>
+    <td style='text-align: center;'>+</td>
+    <td></td>
+    <td style='text-align: center;'>+</td>
+    <td style='text-align: center;'>network, block_storage, block_storage_v2, compute_v2, load_balancer</td>
+  </tr>
   <tr><th>ibm</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
   <tr><th>joyent</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>libvirt</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
