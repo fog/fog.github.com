@@ -62,7 +62,7 @@ Valid keys are as follows:
     <tr><td>go_grid_shared_secret</td><td></td></tr>
     <tr><td>google_storage_access_key_id</td><td></td></tr>
     <tr><td>google_storage_secret_access_key</td><td></td></tr>
-    <tr><td>hp_account_id</td><td></td></tr>
+    <tr><td>hp_access_key</td><td></td></tr>
     <tr><td>hp_secret_key</td><td></td></tr>
     <tr><td>hp_tenant_id</td><td></td></tr>
     <tr><td>ibm_password</td><td></td></tr>
