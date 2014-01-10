@@ -190,7 +190,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>OpenStack</td>
-     <td></td>
+     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/openstack/docs/getting_started.md">Documentation</a></td>
      <td><a href="https://github.com/fog/fog/tree/master/lib/fog/openstack/examples">Examples</a></td>
      <td>Community</td>
      <td></td>
