@@ -24,6 +24,7 @@ Thanks for following these rules to keep the quality high and and the content us
 
 ## Products
 
+* [CloudForms](http://www.redhat.com/products/cloud-computing/cloudforms/) = OpenStack => \[Compute, Storage, Image, Network\]
 * [DevStructure](http://devstructure.com/) = AWS => Compute, Rackspace => Compute, Slicehost => Compute
 * [Engine Yard AppCloud](http://www.engineyard.com/cloud) = AWS => \[Compute, Storage\]
 * [iSwifter](http://iswifter.youwebinc.com/) = BlueBox => Compute
