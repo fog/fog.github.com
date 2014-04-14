@@ -217,6 +217,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
    </tr>
    <tr>
+     <td>Sakura no Cloud</td>
+     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/sakuracloud/docs/getting_started.md">Documentation</a></td>
+     <td></td>
+     <td>Community</td>
+     <td></td>
+   </tr>
+   <tr>
      <td>Serverlove</td>
      <td></td>
      <td></td>
