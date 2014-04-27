@@ -64,7 +64,7 @@ As you can see, cloud storage files in fog are a lot like an ActiveRecord model.
 
 But if it took you longer to realize the mistake you might not still have file around, but you've got options.
 
-directory = connection.directories.get("proclamations1234567890")
+    directory = connection.directories.get("proclamations1234567890")
 
     # get the resume file
     file = directory.files.get('resume.html')
