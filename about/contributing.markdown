@@ -1,6 +1,8 @@
 ---
+
 layout: default
-title:  Contributing
+title: Contributing
+
 ---
 
 First off, high five for coming to visit this page.  You are my new hero.
@@ -11,7 +13,7 @@ First off, high five for coming to visit this page.  You are my new hero.
 * Rebase your branch against master before submitting a pull request (and squish any 'oops' or work in progress commits).
 * We support several rubies!  Make sure your changes will work for all the Rubies in .travis.yml (currently MRI 1.8, 1.9, and Ruby 2.0).
 * Submit changes as pull requests describing what the changes should cover and referencing issues (if any).
-* Use 'tags' in your commits to indicate the scope, so things like '\[aws|compute\] fixed something'.
+* Use 'tags' in your commits to indicate the scope, so things like `[aws|compute] fixed something`.
 * Write and run tests.  Tests should follow through usage workflows and ought to pass both with mocking on and off.
 
 ## Deep dive
