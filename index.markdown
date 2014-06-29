@@ -34,7 +34,7 @@ Now type 'fog' to try stuff, confident that fog will let you know what to do. He
 
 ## Go forth and conquer
 
-Play around and use the console to explore or check out the [getting started guide](/about/getting_started.html) for more details. Once you are reading to start scripting fog, here is a quick hint on how to make connections without the command line thing to help you.
+Play around and use the console to explore or check out the [getting started guide](/about/getting_started.html) for more details. Once you are ready to start scripting fog, here is a quick hint on how to make connections without the command line thing to help you.
 
     # create a compute connection
     compute = Fog::Compute.new({:provider => 'AWS', :aws_access_key_id => ACCESS_KEY_ID, :aws_secret_access_key => SECRET_ACCESS_KEY})
