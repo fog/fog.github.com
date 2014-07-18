@@ -55,7 +55,7 @@ geemus says: "That should give you everything you need to get started, but let m
 * Fork the project and do your work in a topic branch.
   * Make sure your changes will work for the Rubies in .travis.yml (currently MRI 1.8, 1.9, and Ruby 2.0).
 * Add a config at `tests/.fog` for the component you want to test.
-* Add shindo tests to prove your code works and run all the tests using `bundle exec rake`.
+* Add shindo tests to prove your code works and run all the tests using `rake travis`.
 * Rebase your branch against `fog/fog` to make sure everything is up to date.
 * Commit your changes and send a pull request.
 
