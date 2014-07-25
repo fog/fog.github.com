@@ -231,6 +231,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
    </tr>
    <tr>
+     <td>SoftLayer</td>
+     <td></td>
+     <td><a href="https://github.com/fog/fog-softlayer/tree/master/examples">Examples</a></td>
+     <td>Vendor</td>
+     <td><a href="mailto:sldn@softlayer.com">sldn@softlayer.com</a></td>
+   </tr>
+   <tr>
      <td>StormOnDemand</td>
      <td></td>
      <td></td>
