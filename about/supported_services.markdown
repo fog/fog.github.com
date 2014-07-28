@@ -39,6 +39,7 @@ title:  Supported Services
   <tr><th>ovirt</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>rackspace</th><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td>block_storage, compute_v2, load_balancers, databases</td></tr>
   <tr><th>serverlove</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>softlayer</th><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td style='text-align: center;'>+</td><td>network</td></tr>
   <tr><th>stormondemand</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>vcloud</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>virtualbox</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
