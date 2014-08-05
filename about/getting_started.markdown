@@ -87,6 +87,11 @@ Valid keys are as follows:
     <tr><td>rackspace_cdn_ssl</td><td></td></tr>
     <tr><td>rackspace_servicenet</td><td></td></tr>
     <tr><td>rackspace_username</td><td> Rackpace username</td></tr>
+    <tr><td>softlayer_username</td><td> SoftLayer username</td></tr>
+    <tr><td>softlayer_api_key</td><td> SoftLayer API key</td></tr>
+    <tr><td>softlayer_default_datacenter</td><td> Default datacenter into which SoftLayer compute instances will launch.</td></tr>
+    <tr><td>softlayer_default_domain</td><td> Default domain attribute when creating SoftLayer compute instances.</td></tr>
+    <tr><td>softlayer_cluster</td><td> Cluster or region to use for SoftLayer object storage.  Currently supported clusters are dal05, sng01, ams01</td></tr>
     <tr><td>stormondemand_password</td><td></td></tr>
     <tr><td>stormondemand_username</td><td></td></tr>
     <tr><td>terremark_password</td><td></td></tr>
