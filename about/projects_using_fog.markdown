@@ -20,6 +20,7 @@ Thanks for following these rules to keep the quality high and and the content us
 * [deckard](http://github.com/joewilliams/deckard) = AWS => Compute
 * [gaff](http://github.com/joewilliams/gaff) = AWS => Compute, Slicehost => Compute
 * [gemcutter](http://github.com/rubygems/gemcutter) = AWS => Storage
+* [ManageIQ](http://manageiq.org/) = OpenStack => \[Compute, Storage, Image, Network\]
 * [plover](http://github.com/railsmachine/plover) = AWS => Compute
 
 ## Products
