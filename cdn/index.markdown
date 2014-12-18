@@ -22,7 +22,7 @@ Now you'll need to <a href="https://aws-portal.amazon.com/gp/aws/developer/subsc
       :provider               => 'AWS',
       :aws_access_key_id      => YOUR_AWS_ACCESS_KEY_ID,
       :aws_secret_access_key  => YOUR_AWS_SECRET_ACCESS_KEY
-    }
+    })
 
 ## Setting Up Your CDN
 
@@ -52,7 +52,7 @@ Fog also supports models for the AWS CDN. The above code can also be written lik
           'DNSName'               => 'www.example.com',
           'OriginProtocolPolicy'  => 'match-viewer'
         }, :enabled => true
-    })
+    )
     
     distribution.wait_for { ready? }
 
