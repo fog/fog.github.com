@@ -196,6 +196,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
    </tr>
    <tr>
+     <td>OpenVZ</td>
+     <td></td>
+     <td></td>
+     <td>Community</td>
+     <td></td>
+   </tr>
+   <tr>
      <td>Ovirt</td>
      <td></td>
      <td></td>
