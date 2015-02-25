@@ -109,14 +109,26 @@ You can run all the same ssh commands and do what you need to, then once again s
 
 ## Google Compute Engine
 
-Google has [Compute Engine](https://cloud.google.com/products/compute-engine). To get your authorization key, visit the [Google API Console](https://code.google.com/apis/console/). Once there, go to "API Access". Click "Create another client ID..." and select "service account".
+Google has [Compute Engine](https://cloud.google.com/compute/). To get your authorization key, visit the [Google Developers Console](https://console.developers.google.com). Once there, select your project, go to "APIs & auth - Credentials". Click "Create another client ID..." and select "service account". Next, download either the JSON key (preferred) or the P12 key.
+
+If you have generated a P12 key then you will need to specify the location of your P12 key file:
 
     # create a connection
     connection = Fog::Compute.new({
       :provider => 'google',
       :google_project => GOOGLE_PROJECT_ID,
       :google_client_email => GOOGLE_SERVICE_EMAIL,
-      :google_key_location => GOOGLE_KEY_LOCATION,
+      :google_key_location => GOOGLE_P12_KEY_LOCATION,
+    })
+
+If you have generated a JSON key then then you will need to specify the location of your JSON key file:
+
+    # create a connection
+    connection = Fog::Compute.new({
+      :provider => 'google',
+      :google_project => GOOGLE_PROJECT_ID,
+      :google_client_email => GOOGLE_SERVICE_EMAIL,
+      :google_json_key_location => GOOGLE_JSON_KEY_LOCATION,
     })
 
 The easiest way to launch a server is to:
