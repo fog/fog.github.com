@@ -18,7 +18,7 @@ title:  Supported Services
   <tr><th>ecloud</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>glesys</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>gogrid</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
-  <tr><th>google</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
+  <tr><th>google</th><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>monitoring, sql</td></tr>
   <tr>
     <th>hp</th>
     <td style='text-align: center;'>+</td>
