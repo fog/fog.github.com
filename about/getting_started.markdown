@@ -60,6 +60,12 @@ Valid keys are as follows:
     <tr><td>dnsmadeeasy_secret_key</td><td></td></tr>
     <tr><td>go_grid_api_key</td><td></td></tr>
     <tr><td>go_grid_shared_secret</td><td></td></tr>
+    <tr><td>google_project</td><td>Project ID (not number)</td></tr>
+    <tr><td>google_client_email</td><td>@developer.gserviceaccount.com</td></tr>
+    <tr><td>google_key_location</td><td>Path to P12 private key (not need if using the JSON file)</td></tr>
+    <tr><td>google_key_string</td><td>In-line P12 private key string contents (alternative to specifying path)</td></tr>
+    <tr><td>google_json_key_location</td><td>Path to JSON account file (not needed if using P12 key)</td></tr>
+    <tr><td>google_json_key_string</td><td>In-line JSON private key string contents (alternative to specifying path)</td></tr>
     <tr><td>google_storage_access_key_id</td><td></td></tr>
     <tr><td>google_storage_secret_access_key</td><td></td></tr>
     <tr><td>hp_access_key</td><td></td></tr>
