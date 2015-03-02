@@ -70,7 +70,6 @@ Enjoy, and let me know what I can do to continue improving fog!
 * Follow release notes and discussions on the [mailing list](http://groups.google.com/group/ruby-fog)
 * Report bugs or find tasks to help with in the [issues](http://github.com/fog/fog/issues)
 * Learn about [contributing](/about/contributing.html)
-* See where fog is used and let the world know how you use it [in the wild](/about/users.html)
 * Check out blog posts and other mentions in the [press](/about/press.html)
 
 ## Copyright
