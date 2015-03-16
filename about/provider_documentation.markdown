@@ -214,7 +214,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
       <td><a href="https://github.com/fog/fog/blob/master/lib/fog/rackspace/docs/getting_started.md">Documentation</a></td>
       <td><a href="https://github.com/fog/fog/tree/master/lib/fog/rackspace/examples">Examples</a></td>
       <td>Vendor</td>
-      <td><a href="mailto:sdk-support@rackspace.com">sdk-support@rackspace.com</a></td>
+      <td><a href="https://developer.rackspace.com/support">developer.rackspace.com/support</a></td>
     </tr>
    <tr>
      <td>RiakCS</td>
