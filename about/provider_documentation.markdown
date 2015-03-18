@@ -217,6 +217,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
       <td><a href="https://developer.rackspace.com/support">developer.rackspace.com/support</a></td>
     </tr>
    <tr>
+     <td>Rage4</td>
+     <td></td>
+     <td></td>
+     <td>Community</td>
+     <td></td>
+   </tr>
+   <tr>
      <td>RiakCS</td>
      <td></td>
      <td></td>
