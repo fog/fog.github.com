@@ -13,7 +13,7 @@ With a rapidly expanding community and codebase the advantages of fog just keep 
 
 ## Prerequisites
 
-Fog recommends using MRI 1.9.3 or 2.0.0.  MRI 1.8.7 and 1.9.2 are still supported by the Fog community, but are no longer supported by the Ruby community at large.  While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.
+Fog recommends using MRI 2.0.0.  MRI 1.9.3 and 1.9.2 are still supported by the Fog community, but are no longer supported by the Ruby community at large.  While not officially supported, Fog has been known to work with Ruby Enterprise Edition, Rubinus and JRuby.
 
 ## Quick Start
 
