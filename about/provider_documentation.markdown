@@ -13,13 +13,13 @@ Community supported providers can get assistance by starting a thread on [Google
 In order to maximize the benefits of open source, you are encouraged submit bugs to [Github Issues](https://github.com/fog/fog/issues) regardless of the support option.
 
 <table>
-     <tr>
-         <th>Provider</th>
-         <th>Documentation</th>
-         <th>Examples</th>
-         <th>Support Type</th>
-         <th>Support Address</th>
-     </tr>
+   <tr>
+     <th>Provider</th>
+     <th>Documentation</th>
+     <th>Examples</th>
+     <th>Support Type</th>
+     <th>Support Address</th>
+   </tr>
    <tr>
      <td>AWS</td>
      <td></td>
@@ -61,6 +61,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
      <td>Community</td>
      <td></td>
+   </tr>
+   <tr>
+     <td>CloudAtCost</td>
+     <td><a href="https://github.com/fog/fog-cloudatcost/blob/master/lib/fog/cloudatcost/examples/getting_started.md">Documentation</a></td>
+     <td></td>
+     <td>Vendor</td>
+     <td><a href="mailto:info@surajms.com">info@surajms.com</a></td>
    </tr>
    <tr>
      <td>CloudSigma</td>
