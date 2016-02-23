@@ -142,15 +142,15 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    <tr>
      <td>Google</td>
      <td><a href="https://github.com/fog/fog-google/blob/master/README.md">Documentation</a></td>
-     <td><a href="https://github.com/fog/fog-google/tree/master/examples">Examples</a></td>     
+     <td><a href="https://github.com/fog/fog-google/tree/master/examples">Examples</a></td>
      <td>Community</td>
      <td></td>
    </tr>
    <tr>
      <td>HP</td>
-     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/hp/README.md">Documentation</a></td>
-     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/hp/examples/getting_started_examples.md">Examples</a></td>
-     <td>Community</td>
+     <td>HP Cloud has been decommissioned and removed as of March 1, 2016. </td>
+     <td></td>
+     <td>None</td>
      <td></td>
    </tr>
    <tr>
