@@ -22,13 +22,13 @@ Fog will continue to search for credentials in the following order until found:
 
 
 This is an example of a ```.fog``` file:
- 
+
 	default:
 	    rackspace_username: RACKSPACE_USERNAME
 	    rackspace_api_key: RACKSPACE_API_KEY
 	    public_key_path: ~/.ssh/fog_rsa.pub
 	    private_key_path: ~/.ssh/fog_rsa
-	
+
 	provider2:
 		provider_username: USERNAME
 		provider_api_key: API_KEY
@@ -68,9 +68,6 @@ Valid keys are as follows:
     <tr><td>google_json_key_string</td><td>In-line JSON private key string contents (alternative to specifying path)</td></tr>
     <tr><td>google_storage_access_key_id</td><td></td></tr>
     <tr><td>google_storage_secret_access_key</td><td></td></tr>
-    <tr><td>hp_access_key</td><td></td></tr>
-    <tr><td>hp_secret_key</td><td></td></tr>
-    <tr><td>hp_tenant_id</td><td></td></tr>
     <tr><td>ibm_password</td><td></td></tr>
     <tr><td>ibm_username</td><td></td></tr>
     <tr><td>libvirt_ip_command</td><td></td></tr>
