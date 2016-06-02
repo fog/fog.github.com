@@ -25,7 +25,7 @@ title:  Supported Services
   <tr><th>linode</th><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td></td><td></td></tr>
   <tr><th>local</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
   <tr><th>ninefold</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
-  <tr><th>openstack</th><td></td><td style='text-align: center;'>+</td><td></td><td style='text-align: center;'>+</td><td></td><td>network</td></tr>
+  <tr><th>openstack</th><td></td><td style='text-align: center;'>+</td><td></td><td style='text-align: center;'>+</td><td style='text-align: center'>+</td><td>baremetal, image, introspection, metering, network, nfv, orchestration, volume</td></tr>
   <tr><th>ovirt</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>rackspace</th><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td>block_storage, compute_v2, load_balancers, databases</td></tr>
   <tr><th>serverlove</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
