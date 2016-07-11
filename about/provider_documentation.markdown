@@ -176,7 +176,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>Libvirt</td>
-     <td><a href="https://github.com/fog/fog/blob/master/lib/fog/libvirt/models/compute/README.md">Documentation</a></td>
+     <td><a href="https://github.com/fog/fog-libvirt/blob/master/lib/fog/libvirt/models/compute/README.md">Documentation</a></td>
      <td></td>
      <td>Community</td>
      <td></td>
