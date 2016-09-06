@@ -127,7 +127,7 @@ More clouds? How much extra stuff will you have to do for these services!?! Hard
 
 ## Google Cloud Storage
 
-Sign up <a href="http://gs-signup-redirect.appspot.com/">here</a> and get your credentials <a href="https://storage.cloud.google.com/m">here</a> under the section "Interoperable Access".
+Sign up <a href="https://cloud.google.com/storage/docs/signup?hl=en">here</a> and get your credentials <a href="https://storage.cloud.google.com/m">here</a> under the section "Interoperable Access".
 
     connection = Fog::Storage.new({
       :provider                         => 'Google',

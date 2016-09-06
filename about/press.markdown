@@ -44,7 +44,7 @@ Mentions and blog posts from elsewhere in reverse chronological order by day (an
 
 **October 13, 2010**
 
-* [Engine Yard Announces Formal Support for ‘fog’ to Ensure Application Portability in the Cloud](http://www.engineyard.com/company/press/2010-10-13-engine-yard-announces-formal-support-for-%E2%80%98fog%E2%80%99-to-ensure-application-portability-in-the-cloud)
+* [Engine Yard Announces Formal Support for ‘fog’ to Ensure Application Portability in the Cloud](http://www.engineyard.com/company/$)
 * [Wesley Beary and fog Promoted to the Engine Yard Open Source Program](http://www.engineyard.com/blog/2010/wesley-beary-and-fog-promoted-to-the-engine-yard-open-source-program/)
 
 **September 28, 2010**
