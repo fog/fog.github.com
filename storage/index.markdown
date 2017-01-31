@@ -121,13 +121,13 @@ Alright, so you (eventually) become satisfied enough to send it off, what is the
 
     puts file.public_url
 
-Pop that link in an email and you should be ready to cruise job ads and send your resume far and wide (Engine Yard is <a href="http://www.engineyard.com/company/careers/wanted-head-in-the-clouds-engineer">hiring</a>, so check us out!). Now you are set, unless you are interviewing for Google, or Rackspace... Both of these companies have their own cloud storage services, so using Amazon S3 might not be the foot in the door you hoped for.
+Pop that link in an email and you should be ready to cruise job ads and send your resume far and wide. Now you are set, unless you are interviewing for Google, or Rackspace... Both of these companies have their own cloud storage services, so using Amazon S3 might not be the foot in the door you hoped for.
 
 More clouds? How much extra stuff will you have to do for these services!?! Hardly anything needs to change, you just have to pass slightly different credentials in, but I'm getting ahead of myself.
 
 ## Google Cloud Storage
 
-Sign up <a href="http://gs-signup-redirect.appspot.com/">here</a> and get your credentials <a href="https://storage.cloud.google.com/m">here</a> under the section "Interoperable Access".
+Sign up <a href="https://cloud.google.com/storage/">here</a> and get your credentials under the section "Interoperable Access".
 
     connection = Fog::Storage.new({
       :provider                         => 'Google',
@@ -137,7 +137,7 @@ Sign up <a href="http://gs-signup-redirect.appspot.com/">here</a> and get your c
 
 ## Rackspace CloudFiles
 
-Rackspace has <a href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a> and you can sign up <a href="https://www.rackspacecloud.com/signup">here</a> and get your credentials <a href="https://manage.rackspacecloud.com/APIAccess.do">here</a>.
+Rackspace has <a href="http://www.rackspacecloud.com/cloud_hosting_products/files">Cloud Files</a> and you can sign up <a href="https://cart.rackspace.com/cloud">here</a> and get your credentials <a href="https://manage.rackspacecloud.com/APIAccess.do">here</a>.
 
     connection = Fog::Storage.new({
       :provider           => 'Rackspace',
