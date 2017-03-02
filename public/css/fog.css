@@ -129,6 +129,7 @@ pre {
   border-radius: 0.5em;
   margin: 1em;
   white-space: pre;
+  text-align: left;
 }
 
 pre code {
