@@ -5,6 +5,11 @@ This repo is the source for the fog.io website all about the fog cloud computing
 
 
 ## Contributing
-Want to see changes on your local machine? Use the [jekyll](https://github.com/mojombo/jekyll) blogging gem. After you get things setup, use the following command to view the fog site on [localhost:4000](http://localhost:4000/).
+Want to see changes on your local machine?
 
-    jekyll server
+Once you are [setup with ruby and bundler](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements),
+install jekyll with `bundle install`
+
+After you get things setup, use the following command to view the fog site on [localhost:4000](http://localhost:4000/).
+
+    bundle exec jekyll serve
