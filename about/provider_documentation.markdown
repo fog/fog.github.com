@@ -56,6 +56,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td><a href="mailto:support@brightbox.com">support@brightbox.com</a></td>
    </tr>
    <tr>
+     <td>CenturyLinkCloud</td>
+     <td><a href="https://github.com/CenturyLinkCloud/fog-clc">Documentation</a></td>
+     <td></td>
+     <td>Vendor</td>
+     <td><a href="mailto:ecosystem@centurylinkcloud.com">ecosystem@centurylinkcloud.com</a></td>
+   </tr>
+   <tr>
      <td>Clodo</td>
      <td></td>
      <td></td>
