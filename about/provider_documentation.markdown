@@ -50,7 +50,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>Brightbox</td>
-     <td><a href="http://docs.brightbox.com/guides/ruby/fog/">Documentation</a></td>
+     <td><a href="https://www.brightbox.com/docs/guides/ruby/fog/?">Documentation</a></td>
      <td></td>
      <td>Vendor</td>
      <td><a href="mailto:support@brightbox.com">support@brightbox.com</a></td>
