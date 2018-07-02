@@ -230,6 +230,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td>Community</td>
      <td></td>
    </tr>
+   <tr>
+     <td>Packet</td>
+     <td><a href="https://github.com/fog/fog-packet/blob/master/README.md">Documentation</a></td>
+     <td></td>
+     <td>Vendor</td>
+     <td><a href="mailto:help@packet.net">help@packet.net</a></td>
+   </tr>
     <tr>
       <td>Rackspace</td>
       <td><a href="https://github.com/fog/fog/blob/master/lib/fog/rackspace/docs/getting_started.md">Documentation</a></td>
