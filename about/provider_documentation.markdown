@@ -236,6 +236,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
      <td>Vendor</td>
      <td><a href="mailto:help@packet.net">help@packet.net</a></td>
+   </tr>   
+   <tr>
+     <td>Proxmox</td>
+     <td><a href="https://github.com/fog/fog-proxmox/blob/master/README.md">Documentation</a></td>
+     <td><a href="https://github.com/fog/fog-proxmox/tree/master/examples">Examples</a></td>
+     <td>Community</td>
+     <td></td>
    </tr>
     <tr>
       <td>Rackspace</td>
