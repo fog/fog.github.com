@@ -23,8 +23,7 @@ kramdown:
   syntax_highlighter_opts:
     block:
       wrap: div
-      line_numbers: inline
-      line_numbers_start: 1
+      line_numbers: false
       tab_width: 4
       bold_every: 10
       css: style
