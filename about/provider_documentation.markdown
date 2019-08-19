@@ -3,7 +3,7 @@ layout: default
 title:  Provider Documentation
 ---
 
-##Provider Specific Resources
+## Provider Specific Resources
 
 While Fog strives to provide a generalized abstraction to the Cloud, sometimes this cannot be accomplished due to specific differences in each cloud implementation.
 This page provides links to provider specific documentation and examples to help you get past these issues.
