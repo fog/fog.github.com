@@ -211,6 +211,4 @@ Bonus, note the `Fog.mock!` command. In your tests you can easily mock out calls
 
 Please let me know in the comments if you got a new Ruby job because you hosted your CV on 3 different Cloud Stores without getting your hands dirty.
 
-Have questions or comments?  Hop into <a href="irc://irc.freenode.net/">#ruby-fog</a> on freenode, ping <a href="http://twitter.com/fog">@fog</a> or <a href="http://twitter.com/geemus">@geemus</a>.
-
 And please always remember that I accept high fives and contributions!
