@@ -1,7 +1,7 @@
-Documentation for fog.io
+Documentation for fog.github.io
 ========================
 
-This repo is the source for the fog.io website all about the fog cloud computing library.
+This repo is the source for the fog.github.io website all about the fog cloud computing library.
 
 
 ## Contributing
