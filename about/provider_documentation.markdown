@@ -70,6 +70,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td><a href="mailto:info@surajms.com">info@surajms.com</a></td>
    </tr>
    <tr>
+     <td>Cloudian</td>
+     <td></a></td>
+     <td></td>
+     <td>Vendor</td>
+     <td><a href="mailto:support@cloudian.com">support@cloudian.com</a></td>
+   </tr>
+   <tr>
      <td>CloudSigma</td>
      <td><a href="https://github.com/fog/fog/blob/master/lib/fog/cloudsigma/docs/getting_started.md">Documentation</a></td>
      <td></td>
