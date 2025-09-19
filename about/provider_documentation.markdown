@@ -71,7 +71,7 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
    </tr>
    <tr>
      <td>Cloudian</td>
-     <td></a></td>
+     <td></td>
      <td></td>
      <td>Vendor</td>
      <td><a href="mailto:support@cloudian.com">support@cloudian.com</a></td>
