@@ -11,6 +11,7 @@ title:  Supported Services
   <tr><th>bluebox</th><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td></td><td></td></tr>
   <tr><th>brightbox</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>clodo</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
+  <tr><th>cloudian</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
   <tr><th>cloudstack</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>dnsimple</th><td></td><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td></tr>
   <tr><th>dnsmadeeasy</th><td></td><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td></tr>
