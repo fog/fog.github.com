@@ -73,8 +73,8 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td>Cloudian</td>
      <td></td>
      <td></td>
-     <td>Vendor</td>
-     <td><a href="mailto:support@cloudian.com">support@cloudian.com</a></td>
+     <td>Community</td>
+     <td></td>
    </tr>
    <tr>
      <td>CloudSigma</td>
