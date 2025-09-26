@@ -151,6 +151,23 @@ If you work with the European cloud from Rackspace you have to add the following
 
 Then create, save, destroy as per fog-for-AWS. The `:public => true` option when creating directories (see above) is important for Rackspace; your folder and files won't be shared to Rackspace's CDN and hence your users without it.  Similarly the `:public =&gt; true` on files is important for AWS and Google or they will be private.
 
+## S3 compatible object storage providers
+Additional details are required when connecting to S3 compatible object stores (ie Cloudian HyperStore)
+
+    connection = Fog::Storage::AWS.new(
+    provider: 'AWS',
+    aws_access_key_id: access_key,
+    aws_secret_access_key: secret_key,
+    region: region,
+    endpoint: endpoint, # <- point to your non-AWS endpoint
+    path_style: path_style, # <- crucial for many S3-compatible servers
+    aws_signature_version: sigver, # 2 or 4; 4 recommended
+    persistent: true,
+    connection_options: {
+    ssl_verify_peer: verify_ssl # set false for self-signed certificates
+    }
+    )
+
 ## Local Storage
 
 While you are working out the kinks you might not want to do everything live though, ditto for while you are running tests, so you have a couple options to try before you buy.  First, you can use a local provider to store things in a directory on your machine.
